@@ -13,17 +13,30 @@
   <h1>huhu!! hihi</h1>
   <hr>
 
-  <form class="" action="index.html" method="post">
+
     <p>Zeige mir, wie lieb du mich hast:</p>
     <input type="range" name="" value="">
+    <hr>
     <p>Und schreibe mir noch ein paar nette Worte:</p>
-    <textarea name="name" rows="8" cols="80"></textarea>
+
+    <form action="mailto:horstphindus@mein.gmx" method="post" enctype="text/plain">
+      <p>Name: <input type="text" name="name"/></p>
+      <p>E-Mail: <input type="text" name="email"/></p>
+      <p>Kommentar:
+        <br />
+       <textarea name="comments" rows = "5" cols = "60">(Ich habe dich auch seeehr lieb)</textarea>
+        <br>
+      <label class="container">(ich teile alles mir dir. hihi)
+        <input type="checkbox" checked="checked">
+        <span class="checkmark"></span>
+        <p><input type="submit" name="submit" value="Absenden" />
+          <input type="reset" name="reset" value="Löschen" />
+        </p>
+    </form>
     <br>
-    <label class="container">(ich teile alles mir dir. hihi)
-      <input type="checkbox" checked="checked">
-      <span class="checkmark"></span> <br>
-      <button type="button"><a href="mailto:horstphindus@mein.gmx">email me</a></button>
-      <br>
+    </form>
+    <hr>
+
 
     </label>
   </form>
