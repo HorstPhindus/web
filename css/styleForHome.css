@@ -1,0 +1,109 @@
+body {
+  font-family: 'Montserrat', serif;
+  margin: 0px;
+  text-align: center;
+  background-color: #a7e9af;
+  color: grey;
+  font-size: 1rem;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  color: #6a8caf;
+  font-size: 5.625rem;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: -50px;
+  padding-top: 2%;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  margin-bottom: 30px;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #6a8caf;
+  opacity: 0.5;
+  border-width: 10px;
+  width: 7%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+a {
+  font-family: 'Montserrat', serif;
+  color: #a7e9af;
+}
+
+.top-container {}
+
+.middle-container {}
+
+.bottom-container {}
+
+
+.contact {
+  font-family: 'Montserrat', serif;
+  background-color: #7fa998;
+  color: white;
+  font-size: 1rem;
+  width: auto;
+  height: 40px;
+  padding: 25px;
+}
+
+.first {
+  color: #7fa998;
+}
+
+.second {
+  color: #df8543;
+}
+
+.logo {
+  width: 60%;
+  margin: auto;
+  margin-top: -35px;
+  margin-bottom: -140px;
+  background-color: transparent;
+}
+
+.profile {
+  border-radius: 50%;
+  width: 30%;
+  margin: left;
+  background-color: transparent;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background-color: green;
+  opacity: 0.3;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Facebook */
+.fa-instagram {
+  background: #orange;
+  color: white;
+}
