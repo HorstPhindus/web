@@ -2,20 +2,28 @@
   color: white;
 }
 
-
 body {
   font-family: "Montserrat";
 }
 
-h1 {
+h1 h2 h3 h4 h5 h6 {
   font-family: "Montserrat";
+}
+
+
+/* Navigation Bar */
+
+.big-heading {
   font-size: 3.4rem;
   font-weight: 900;
   line-height: 1.5;
 }
 
+.container-fluid {
+  padding: 3% 15% 9%;
+  background-color: #f0134d;
+}
 
-/* Navigation Bar */
 .navbar {
   padding-left: 0px;
   padding-bottom: 3rem;
@@ -34,14 +42,6 @@ h1 {
 .nav-link {
   font-size: 1.2rem;
 }
-
-
-
-.container-fluid {
-  padding: 3% 15% 9%;
-  background-color: #f0134d;
-}
-
 
 
 /* Buttons*/
@@ -72,17 +72,17 @@ h1 {
 
 /* Feature section */
 
-h3 {
+#features {
+  background-color: #fff;
+  text-align: center;
+  padding: 5% 10%;
+  position: relative;
+}
+
+.heading-features {
   font-weight: 900;
   color: #313131;
   margin-bottom: 10px;
-}
-
-#features {
-  background-color: #DBF3C4;
-  text-align: center;
-  padding: 3% 10%;
-  position: relative;
 }
 
 /* Testimonial section */
@@ -92,22 +92,33 @@ h3 {
   text-align: center;
 }
 
-h2 {
+.heading-testimonial {
   font-weight: 900;
   font-size: 2.5rem;
-  color: #f5f0e3;
+  color: #fff;
   margin-bottom: 30px;
 }
 
 .testimonialDog {
-  width: 15%;
+  width: 20%;
   border-radius: 100%;
 }
 
 .testimonialLady {
-  width: 15%;
+  width: 20%;
   border-radius: 100%;
 }
+
+.hphcam
+{
+  width: 20%;
+  border-radius: 100%;
+}
+
+ .willicam {
+  width: 20%;
+   border-radius: 100%;
+ }
 
 .testimonialText {
   color: #f5f0e3;
@@ -115,8 +126,9 @@ h2 {
 }
 
 .carousel-item {
-  padding: 3% 15%;
+  padding: 5% 15%;
 }
+
 
 /* press */
 
@@ -131,17 +143,21 @@ h2 {
   margin: 20px 20px 50px;
 }
 
+
 /* HPh */
 #HPh {
-  padding: 25%;
+  padding: 7% 15%;
   text-align:center;
   background-color: #f0134d;
 }
 
+
 /* HPh2 */
 #HPh2 {
   background-color: #ff6f5e;
+    padding: 7% 15%;
 }
+
 .HPhLady {
   width: 40%;
   margin-top: 3%;
@@ -150,10 +166,26 @@ h2 {
 }
 
 
+/* WrapUp */
+
+#WrapUp {
+  padding: 7% 15%;
+  background-color: #f0134d;
+  text-align:center;
+  color: #fff;
+}
+
+
 /* footer */
 
 #footer {
-  background-color: #DBF3C4;
-  padding: 3% 0 1%;
+  background-color: #fff;
+  color: grey;
+  font-weight: 600;
+  padding: 7% 15%;
   text-align: center;
 }
+
+.minibut {
+    margin: 20px 10px;
+  }
